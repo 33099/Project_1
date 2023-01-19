@@ -11,9 +11,9 @@
   </head>
 
   <body>
-    <div class="bg-blue-400 font-sans text-2xl">
+    <div class="bg-gray-300 font-sans text-2xl">
       <div class="flex flex-row justify-between pr-4">
-        <h1 class="w-3/5 p-5 text-white">Login to your account</h1>
+        <h1 class="w-3/5 p-5 text-blue-500">Login to your account</h1>
       </div>
     </div>
     <div class="grid grid-cols-6 p-3 gap-2">
@@ -21,19 +21,19 @@
         <form action="/session" method="post">
           <input type="hidden" name="_csrf" value="<%= csrfToken %>" />
           <div class="py-3">
-            <label for="email">Enter Email</label>
+            <label for="email">Enter your Email id</label>
             <input
               name="email"
               type="email"
-              class="rounded border-2 border-gray-500 p-2 w-full text-gray-900"
+              class="rounded border-3 border-gray-500 p-2 w-full text-gray-900"
             />
           </div>
           <div class="py-3">
-            <label for="password">Enter Password</label>
+            <label for="password">Enter your Password</label>
             <input
               name="password"
               type="password"
-              class="rounded border-2 border-gray-500 p-2 w-full text-gray-900"
+              class="rounded border-3 border-gray-500 p-2 w-full text-gray-900"
             />
           </div>
           <div class="py-3 flex flex-row">
