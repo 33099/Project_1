@@ -15,6 +15,12 @@ module.exports = {
       description: {
         type: Sequelize.STRING,
       },
+      selected: {
+        type: Sequelize.INTEGER,
+      },
+      correct: {
+        type: Sequelize.INTEGER,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE,

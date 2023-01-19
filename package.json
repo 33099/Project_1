@@ -1,11 +1,11 @@
 {
-  "name": "voting_app",
+  "name": "Voting_App",
   "version": "1.0.0",
-  "description": "A Voting Platform",
+  "description": "A Voting Platform where everyone can vote",
   "main": "index.js",
   "scripts": {
     "start": "nodemon -e js,ejs",
-    "start:prod": "nodemon index.js",
+    "start:prod": "node index.js",
     "pretest": "NODE_ENV=test npx sequelize-cli db:drop && NODE_ENV=test npx sequelize-cli db:create",
     "test": "NODE_ENV=test jest --detectOpenHandles",
     "prepare": "husky install"
@@ -17,15 +17,15 @@
     ]
   },
   "repository": {
-    "type": "git"
-  
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ishikasaraf20/voting_app.git"
   },
-  "author": "Divya sharma",
+  "author": "Aniket Jain",
   "license": "ISC",
   "bugs": {
-
+    "url": "https://github.com/Ishikasaraf20/voting_app/issues"
   },
-
+  "homepage": "https://github.com/Ishikasaraf20/voting_app#readme",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.12",
     "eslint": "^8.30.0",

@@ -12,8 +12,8 @@ module.exports = {
       body: {
         type: Sequelize.STRING,
       },
-      votes: {
-        type: Sequelize.INTEGER,
+      selected: {
+        type: Sequelize.BOOLEAN,
       },
       createdAt: {
         allowNull: false,
