@@ -18,7 +18,7 @@
           <div
             class="hover:bg-white/20  cursor-pointer flex items-center"
           >
-            <a href="/elections" class="text-white px-2"> All Elections </a>
+            <a href="/elections" class="text-white px-2">Elections List </a>
           </div>
           <div
             class="hover:bg-white/20  cursor-pointer flex items-center"
@@ -34,7 +34,16 @@
         <h1 class="text-2xl font-bold mb-4">Add Voter</h1>
         <form action="/voters" method="post">
           <div class="flex-auto">
-            <label for="firstName">Full Name</label>
+            <label for="firstName">First Name </label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              class="rounded border-2 border-green-500 p-2 w-full text-gray-900"
+            />
+          </div>
+          <div class="flex-auto">
+            <label for="firstName">Last Name</label>
             <input
               type="text"
               name="firstName"

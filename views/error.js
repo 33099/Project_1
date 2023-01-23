@@ -1,5 +1,5 @@
 <div
-  class="bg-purple-500 mt-4 py-2 px-3 rounded shadow-lg font-mono font-semibold text-white flex flex-row flex-nowrap"
+  class="bg-red-200 mt-4 py-2 px-3 rounded shadow-lg font-mono font-semibold text-white flex flex-row flex-nowrap"
 >
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0_6_8345)">
@@ -7,10 +7,10 @@
     </g>
     <defs>
     <clipPath id="clip0_6_8345">
-    <rect width="26" height="22" fill="white"/>
+    <rect width="24" height="24" fill="white"/>
     </clipPath>
     </defs>
     </svg>
     &nbsp;
-  Error: <%= message %> !!
+  Error: <% = message %> !!
 </div>
