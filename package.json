@@ -1,5 +1,5 @@
 {
-  "name": "Voting_App",
+  "name": "voting_platform",
   "version": "1.0.0",
   "description": "A Voting Platform where everyone can vote",
   "main": "index.js",
@@ -19,12 +19,12 @@
   "repository": {
     "type": "git"
   },
-  "author": "Aniket Jain",
+  "author": "Divya Sharma",
   "license": "ISC",
   "bugs": {
-   
+
   },
-  
+
   "devDependencies": {
     "cheerio": "^1.0.0-rc.12",
     "eslint": "^8.30.0",
@@ -51,6 +51,7 @@
     "passport-local": "^1.0.0",
     "pg": "^8.8.0",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.28.0"
+    "sequelize": "^6.28.0",
+    "tiny-csrf": "^1.1.3"
   }
 }
