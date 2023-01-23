@@ -26,4 +26,4 @@ This is an open source online voting platform where you can host,vote as an vote
 
 ### Test it yourself
 
-#### 👉 [Try it out](https://project-1-0lft.onrender.com)
+#### 👉 [Click Here](https://project-1-0lft.onrender.com)
