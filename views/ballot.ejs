@@ -120,7 +120,7 @@
             <%= questions[i].description %>
           </p>
           <% for(var j = 0; j < questions[i].Answers.length; j++) { %>
-          <p class="text-lg text-gray-600 mb-4"><span class="font-semibold">Option <%= j+1 %></span> : <%= questions[i].Answers[j].body %></p>
+          <p class="text-lg text-gray-600 mb-4"><span class="font-semibold">Answer: <%= j+1 %></span> : <%= questions[i].Answers[j].body %></p>
           <% } %>
           <a
             href="/questions/edit/<%= questions[i].id %>"
