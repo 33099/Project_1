@@ -20,7 +20,7 @@
           </div>
           <div class="bg-blue-800 hover:bg-blue-300 cursor-pointer flex items-center">
             <a href="/elections" class="text-white px-2">
-              All Elections
+              Elections List
             </a>
           </div>
           <div class="bg-blue-900 hover:bg-blue-300 cursor-pointer flex items-center">
@@ -54,6 +54,11 @@
             </button>
           </div>
         </form>
+        <% if(messages && messages.error && messages.error.length > 0)  { %>
+          <% for(var i=0; i<messages.error.length; i++) { %>
+            <%- include('error', {message: messages.error[i]}) %>
+          <% } %>
+        <% } %>
       </div>
     </div>
   </body>

@@ -14,6 +14,12 @@ module.exports = (sequelize, DataTypes) => {
         onUpdate: "cascade",
         hooks: true,
       });
+      //added
+      Election.hasMany(models.Voter, {
+        foreignKey: "electionId",
+        onDelete: "cascade",
+        onUpdate: "cascade",
+      });
       Election.belongsTo(models.Admin, {
         foreignKey: "adminId",
         onDelete: "cascade",
@@ -26,6 +32,8 @@ module.exports = (sequelize, DataTypes) => {
     {
       title: DataTypes.STRING,
       description: DataTypes.STRING,
+      customURL: DataTypes.STRING, //added
+      state: DataTypes.STRING, //added
     },
     {
       sequelize,
